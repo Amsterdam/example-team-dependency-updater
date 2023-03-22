@@ -1,138 +1,18 @@
 [
   {
-    "name":  "bed-and-breakfast",
-    "git_uri": "git@git.data.amsterdam.nl:Datapunt/bed-and-breakfast.git",
-    "timetell": 21127,
-    "acceptance_pipeline": "https://ci.secure.amsterdam.nl/job/Opdrachten/job/Bed%20and%20Breakfast/job/Bed%20and%20Breakfast%20API/job/master/",
-    "production_pipeline": "https://ci.secure.amsterdam.nl/job/Opdrachten/job/Bed%20and%20Breakfast/job/Bed%20and%20Breakfast%20API/view/tags/",
-    "acceptance_urls": [
-      "https://acc.api.secure.amsterdam.nl/vergunningen/quota/kameromzettingen/dashboard/",
-      "https://acc.api.secure.amsterdam.nl/vergunningen/quota/bb/dashboard/"
-    ],
-    "production_urls": [
-      "https://api.secure.amsterdam.nl/vergunningen/quota/kameromzettingen/dashboard/",
-      "https://api.secure.amsterdam.nl/vergunningen/quota/bb/dashboard/"
-    ],
-    "enabled": true
-  },
-  {
-    "name": "blackspots-backend",
-    "git_uri": "git@github.com:Amsterdam/blackspots-backend.git",
-    "timetell": 22099,
-    "acceptance_pipeline": "https://ci.data.amsterdam.nl/job/opdrachten-team/job/Blackspots/job/blackspots-backend/job/master/",
-    "production_pipeline": "https://ci.data.amsterdam.nl/job/opdrachten-team/job/Blackspots/job/blackspots-backend/view/tags/",
-    "acceptance_urls": [
-      "https://acc.wbakaart.amsterdam.nl/"
-    ],
-    "production_urls": [
-      "https://wbakaart.amsterdam.nl/"
-    ],
-    "enabled": true
-  },
-  {
-    "name": "iiif-auth-proxy",
-    "git_uri": "git@github.com:Amsterdam/iiif-auth-proxy.git",
-    "timetell": 21079,
-    "acceptance_pipeline": "https://ci.data.amsterdam.nl/job/opdrachten-team/job/iiif-auth-proxy/job/Deployments/job/master/",
-    "production_pipeline": "https://ci.data.amsterdam.nl/job/opdrachten-team/job/iiif-auth-proxy/job/Deployments/view/tags/",
-    "acceptance_urls": [
-      "https://acc.api.data.amsterdam.nl/iiif-metadata/bouwdossier/"
-    ],
-    "production_urls": [
-      "https://api.data.amsterdam.nl/iiif-metadata/bouwdossier/"
-    ],
-    "enabled": true
-  },
-  {
-    "name": "iiif-metadata-server",
-    "git_uri": "git@github.com:Amsterdam/iiif-metadata-server.git",
-    "timetell": 21079,
-    "acceptance_pipeline": "https://ci.data.amsterdam.nl/job/opdrachten-team/job/iiif-metadata-server/job/iiif-metadata-server-pipeline/job/master/",
-    "production_pipeline": "https://ci.data.amsterdam.nl/job/opdrachten-team/job/iiif-metadata-server/job/iiif-metadata-server-pipeline/view/tags/",
-    "acceptance_urls": [
-      "https://acc.api.data.amsterdam.nl/iiif-metadata/bouwdossier/"
-    ],
-    "production_urls": [
-      "https://api.data.amsterdam.nl/iiif-metadata/bouwdossier/"
-    ],
-    "enabled": true
-  },
-  {
-    "name": "kwiz-schuldhulpverlenings-monitor",
-    "git_uri": "git@git.data.amsterdam.nl:Datapunt/kwiz-schuldhulpverlenings-monitor.git",
-    "timetell": 21182,
-    "acceptance_pipeline": "https://ci.secure.amsterdam.nl/job/Opdrachten/job/SHVmonitor/job/kwiz-schuldhulpverlenings-monitor/job/master/",
-    "production_pipeline": "https://ci.secure.amsterdam.nl/job/Opdrachten/job/SHVmonitor/job/kwiz-schuldhulpverlenings-monitor/view/tags/",
-    "acceptance_urls": [
-        "https://acc.shvmonitor.amsterdam.nl"
-    ],
-    "production_urls": [
-        "https://shvmonitor.amsterdam.nl"
-    ],
-    "enabled": true
-  },
-  {
-    "name": "masterlist",
-    "git_uri": "git@github.com:Amsterdam/masterlist.git",
-    "timetell": 20119,
-    "acceptance_pipeline": "https://ci.data.amsterdam.nl/job/opdrachten-team/job/masterlist/job/masterlist-pipeline/job/master/",
-    "production_pipeline": "https://ci.data.amsterdam.nl/job/opdrachten-team/job/masterlist/job/masterlist-pipeline/view/tags/",
-    "acceptance_urls": [
-      "https://acc.masterlist.amsterdam.nl/admin/login/"
-    ],
-    "production_urls": [
-      "https://masterlist.amsterdam.nl/admin/login/"
-    ],
-    "enabled": true
-  },
-  {
-    "name": "verkeersvergunningen",
-    "git_uri": "git@github.com:Amsterdam/verkeersvergunningen.git",
-    "timetell": 20302,
-    "acceptance_pipeline": "https://ci.secure.amsterdam.nl/job/Opdrachten/job/Verkeersvergunningen/job/Verkeersvergunningen/job/master/",
-    "production_pipeline": "https://ci.secure.amsterdam.nl/job/Opdrachten/job/Verkeersvergunningen/job/Verkeersvergunningen/view/tags/",
-    "acceptance_urls": [
-      "https://acc.api.secure.amsterdam.nl/verkeersvergunningen/status/health"
-    ],
-    "production_urls": [
-      "https://api.secure.amsterdam.nl/verkeersvergunningen/status/health"
-    ],
-    "enabled": true
-  },
-  {
-    "name": "iot-api",
-    "git_uri": "git@github.com:Amsterdam/iot-api.git",
+    "name": "my-app",
+    "git_uri": "git@github.com:Amsterdam/my-app.git",
     "timetell": null,
-    "acceptance_pipeline": "https://ci.data.amsterdam.nl/job/opdrachten-team/job/sensoren-register/job/IoThings/job/master/",
-    "production_pipeline": "https://ci.data.amsterdam.nl/job/opdrachten-team/job/sensoren-register/job/IoThings/view/tags/",
+    "acceptance_pipeline": "https://ci.data.amsterdam.nl/job/example-team/job/my-app/job/MyApp/job/master/",
+    "production_pipeline": "https://ci.data.amsterdam.nl/job/example-team/job/my-app/job/MyApp/view/tags/",
     "acceptance_urls": [
-      "https://acc.api.data.amsterdam.nl/iothings/admin/",
-      "https://acc.sensorenregister.amsterdam.nl/"
+      "https://acc.api.data.amsterdam.nl/myapp/admin/",
+      "https://acc.myapp.amsterdam.nl/"
     ],
     "production_urls": [
-      "https://api.data.amsterdam.nl/iothings/admin/",
-      "https://sensorenregister.amsterdam.nl/"
+      "https://api.data.amsterdam.nl/myapp/admin/",
+      "https://myapp.amsterdam.nl/"
     ],
-    "enabled": true
-  },
-  {
-    "name":  "bereikbaarheid-backend-django",
-    "git_uri": "git@github.com:Amsterdam/bereikbaarheid-backend-django.git",
-    "timetell": 230719,
-    "acceptance_pipeline": "",
-    "production_pipeline": "",
-    "acceptance_urls": [],
-    "production_urls": [],
-    "enabled": true
-  },
-  {
-    "name":  "meetbouten",
-    "git_uri": "git@github.com:Amsterdam/meetbouten.git",
-    "timetell": 1234,
-    "acceptance_pipeline": "",
-    "production_pipeline": "",
-    "acceptance_urls": [],
-    "production_urls": [],
     "enabled": true
   }
 ]

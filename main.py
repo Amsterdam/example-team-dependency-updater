@@ -5,7 +5,7 @@ from dependency_updater.src.maintenance import DependencyUpdater
 import os
 
 if not os.environ.get("SLACK_CHANNEL"):
-    os.environ["SLACK_CHANNEL"] = "opdrachten-team-maintenance"
+    os.environ["SLACK_CHANNEL"] = "my-team-dependency-updater"
 projects_json_path = Path(__file__).parent / "projects.json"
 workdir = Path(__file__).parent / "workdir"
 
